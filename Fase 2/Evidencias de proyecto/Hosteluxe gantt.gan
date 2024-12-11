@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-08-20" view-index="0" gantt-divider-location="425" resource-divider-location="300" version="3.3.3309" locale="es_CL">
+    <description/>
+    <view zooming-state="default:3" id="gantt-chart">
+        <field id="tpd3" name="Name" width="257" order="0"/>
+        <field id="tpd4" name="Begin date" width="88" order="1"/>
+        <field id="tpd5" name="End date" width="79" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="cl">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="" month="1" date="1" type="HOLIDAY"><![CDATA[New Year's Day]]></date>
+        <date year="" month="5" date="1" type="HOLIDAY"><![CDATA[Labour Day]]></date>
+        <date year="" month="5" date="21" type="HOLIDAY"><![CDATA[Navy Day]]></date>
+        <date year="" month="7" date="16" type="HOLIDAY"><![CDATA[Our Lady of Mount Carmel]]></date>
+        <date year="" month="8" date="15" type="HOLIDAY"><![CDATA[Assumption Day]]></date>
+        <date year="" month="9" date="18" type="HOLIDAY"><![CDATA[Independence Day]]></date>
+        <date year="" month="9" date="19" type="HOLIDAY"><![CDATA[Army Day]]></date>
+        <date year="" month="10" date="31" type="HOLIDAY"><![CDATA[Reformation Day]]></date>
+        <date year="" month="11" date="1" type="HOLIDAY"><![CDATA[All Saints Day]]></date>
+        <date year="" month="12" date="8" type="HOLIDAY"><![CDATA[Immaculate Conception]]></date>
+        <date year="" month="12" date="25" type="HOLIDAY"><![CDATA[Christmas]]></date>
+        <date year="2020" month="4" date="10" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2020" month="4" date="11" type="HOLIDAY"><![CDATA[Holy Saturday]]></date>
+        <date year="2020" month="6" date="29" type="HOLIDAY"><![CDATA[Saint Peter and Saint Paul]]></date>
+        <date year="2020" month="10" date="12" type="HOLIDAY"><![CDATA[Columbus Day]]></date>
+        <date year="2019" month="4" date="19" type="HOLIDAY"><![CDATA[Good Friday]]></date>
+        <date year="2019" month="4" date="20" type="HOLIDAY"><![CDATA[Holy Saturday]]></date>
+        <date year="2019" month="7" date="1" type="HOLIDAY"><![CDATA[Saint Peter and Saint Paul]]></date>
+        <date year="2019" month="9" date="20" type="HOLIDAY"><![CDATA[National Day Holiday]]></date>
+        <date year="2019" month="10" date="14" type="HOLIDAY"><![CDATA[Columbus Day]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="bec99f01b14a491190fcbcf8c85cf23e" name="HOSTELUXE" meeting="false" start="2024-08-20" duration="38" complete="0" expand="true">
+            <task id="1" uid="8950f420fbb641babf2530bb7ed6c672" name="Planificacion" meeting="false" start="2024-08-20" duration="4" complete="0" expand="true">
+                <task id="2" uid="eeff73fc33d24a548d5c9c0bb71e0a70" name="Captura de requisitos" meeting="false" start="2024-08-20" duration="1" complete="0" expand="true">
+                    <depend id="3" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="3" uid="bbb3e8a6be8444139b0827b9dcee9a12" name="Product Backlog" meeting="false" start="2024-08-21" duration="1" complete="0" expand="true">
+                    <depend id="4" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="4" uid="189703198d0f4779b201cc0e79fa0b6d" name="Acta de constitucion" meeting="false" start="2024-08-22" duration="1" complete="0" expand="true">
+                    <depend id="5" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="5" uid="382e589999e84ce9b8668dfde14d6adf" name="Planificacion de sprints" meeting="false" start="2024-08-23" duration="1" complete="0" expand="true">
+                    <depend id="10" type="2" difference="0" hardness="Strong"/>
+                    <depend id="11" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="6" uid="e3d17e59b71347709bd46b904bbedd10" name="desarrollo" meeting="false" start="2024-08-26" duration="28" complete="0" expand="true">
+                <depend id="22" type="2" difference="0" hardness="Strong"/>
+                <task id="10" uid="00f60467ee624568b7206d5f1d462415" name="Sprint 1" meeting="false" start="2024-08-26" duration="15" complete="0" expand="true">
+                    <depend id="16" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="11" uid="a225878fd8264f10b6b8d0e8e31031a4" name="Desarrollo web" meeting="false" start="2024-08-26" duration="6" complete="0" expand="true">
+                    <depend id="13" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="13" uid="075a724471c2430caea5af3fc258b8c8" name="Desarrollo BD" meeting="false" start="2024-09-03" duration="5" complete="0" expand="true">
+                    <depend id="14" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="14" uid="cce2a3eecd3043d088f9a04eef9fdd12" name="DIseño web" meeting="false" start="2024-09-10" duration="2" complete="0" expand="true">
+                    <depend id="15" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="15" uid="2d22d13b6f474cabb15573db24bf4687" name="integracion Usuario" meeting="false" start="2024-09-12" duration="2" complete="0" expand="true">
+                    <depend id="17" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="16" uid="42db3e07c52247b5aabc809bf12ac7e5" name="Sprint 2" meeting="false" start="2024-09-16" duration="13" complete="0" expand="true">
+                    <depend id="17" type="1" difference="0" hardness="Strong"/>
+                </task>
+                <task id="17" uid="096355e7112e4c5582736594e08f5c24" name="desarrollo Admin" meeting="false" start="2024-09-16" duration="3" complete="0" expand="true">
+                    <depend id="18" type="3" difference="0" hardness="Strong"/>
+                </task>
+                <task id="18" uid="a90dc0e6813c4ef8a94c689c8a1e3166" name="integracion vistas admin" meeting="false" start="2024-09-17" duration="2" complete="0" expand="true">
+                    <depend id="19" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="19" uid="9048456c18014f168d0c91bc5d0a747b" name="Desarrollo Empleado" meeting="false" start="2024-09-23" duration="5" complete="0" expand="true">
+                    <depend id="20" type="3" difference="0" hardness="Strong"/>
+                </task>
+                <task id="20" uid="122fe1dd28c54d7b844cefcbdb897fa9" name="Integracion vistas empleado" meeting="false" start="2024-09-26" duration="2" complete="0" expand="true">
+                    <depend id="21" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="21" uid="64698b34e6b8427b830e3706f9c9dfba" name="QA" meeting="false" start="2024-09-30" duration="5" complete="0" expand="true">
+                    <depend id="24" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="22" uid="e7e3c34dd7b0433eb7c4a3e7ab90622a" name="Documentacion" meeting="false" start="2024-10-07" duration="5" complete="0" expand="true">
+                <depend id="23" type="2" difference="0" hardness="Strong"/>
+                <task id="24" uid="ac581370ac8b4609bcdf2152f79ab7cd" name="Documentacion software" meeting="false" start="2024-10-07" duration="3" complete="0" expand="true">
+                    <depend id="25" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="25" uid="cf20be92da054f5f8a8e76950cee06ae" name="Documentacion desarrollo" meeting="false" start="2024-10-10" duration="2" complete="0" expand="true">
+                    <depend id="26" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="23" uid="3a1d9bbc877f4a4f802aa8279998fe38" name="Cierre" meeting="false" start="2024-10-14" duration="1" complete="0" expand="true">
+                <task id="26" uid="c5acdf0d11d843a6890c4bda401349be" name="Acta de cierre" meeting="false" start="2024-10-14" duration="1" complete="0" expand="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
